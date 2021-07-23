@@ -1,6 +1,5 @@
 
 import './App.css';
-import './components/comment/comment'
 
 function App() {
   return (
