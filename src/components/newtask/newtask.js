@@ -12,9 +12,7 @@ function NewTask () {
             </div>
             <div>
                 <span>Set Reminder</span>
-                <select >
-                    <option type=""></option>
-                </select>
+                <input type="checkbox" defaultChecked={false}/>
             </div>
             <div> 
                 <button>Save Task</button>
