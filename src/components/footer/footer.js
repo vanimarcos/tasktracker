@@ -1,7 +1,8 @@
+import "./footer.css"
 function Footer () {
     return (
-        <div>
-            <span>Copyright 2021- Vanilson Marcos Love React</span>
+        <div className="footerdiv">
+            <span className="footerspan">Copyright 2021- Vanilson Marcos Love React</span>
         </div>
     )    
 }

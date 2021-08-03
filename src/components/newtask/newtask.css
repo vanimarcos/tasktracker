@@ -1,0 +1,18 @@
+form {
+text-align: start;
+width: min-content;
+display: inline-block;
+
+    
+
+}
+form > div {
+    margin: 5px;
+}
+form > div > label{
+    display: block;
+}
+
+form > div > button{
+    width: -moz-available;
+}
