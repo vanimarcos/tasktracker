@@ -1,12 +1,17 @@
 
 import './App.css';
-import HelloWorld from './components/hw/helloworld';
-
+import Header from "./components/taskheader/taskheader";
+import NewTask from "./components/newtask/newtask";
+import ListTask from "./components/listtask/listtask";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
     <div className="App"> 
-    <HelloWorld/>
+    <Header/>
+    <NewTask/>
+    <ListTask/>
+    <Footer/>
     </div>
   )
 }
