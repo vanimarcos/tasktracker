@@ -2,7 +2,7 @@ import "./closebutton.css"
 
 function CloseButton() {
     return (
-        <button className="closebtn" onClick={close}>Close</button>
+        <button  onClick={close}>Close</button>
     )
 
     function close(){
