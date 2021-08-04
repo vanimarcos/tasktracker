@@ -1,4 +1,4 @@
-import "./taskheader.css"
+import "./header.css"
 import CloseButton from "../closebutton/closebutton";
 
 
