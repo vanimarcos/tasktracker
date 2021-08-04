@@ -1,4 +1,6 @@
 
+
+import "./listtask.css";
 function ListTask() {
 
     function getAllTaks() {
@@ -11,7 +13,7 @@ function ListTask() {
     }
     
     return (
-        <div>
+        <div className="allTasks">
             <ul>
                 {
                     getAllTaks().map(tk => (  
