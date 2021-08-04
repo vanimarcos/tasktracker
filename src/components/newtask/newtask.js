@@ -10,7 +10,7 @@ function NewTask () {
             </div>
             <div className="form-group">
                 <label htmlFor="daytime">Day and Time</label>
-                <input id="daytime" type="datetime"></input>
+                <input id="daytime" className="form-control" type="datetime"></input>
             </div>
             <div className="form-group">
                 <span>Set Reminder</span>
